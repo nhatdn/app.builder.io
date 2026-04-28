@@ -90,7 +90,7 @@ export default function SystemSetupScreen() {
   ];
 
   const handleStartPress = () => {
-    Alert.alert('Bắt đầu sử dụng', 'Hệ thống setup đã hoàn tất!');
+    router.push('/language-selection');
   };
 
   const toggleKioskExpand = (id: string) => {
